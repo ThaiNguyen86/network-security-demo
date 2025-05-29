@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "http_server", "src\http_server\http_server.vcxproj", "{9C986D7C-F6A4-4E40-818E-B33B3E1D75D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "static", "static", "{43BB44F7-5BC9-484D-B89B-86019AB79B5F}"
+	ProjectSection(SolutionItems) = preProject
+		static\index.html = static\index.html
+		static\script.js = static\script.js
+		static\styles.css = static\styles.css
+		static\welcome.html = static\welcome.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "certs", "certs", "{BD3A062D-D79E-410C-A004-EA5604C11C7B}"
+	ProjectSection(SolutionItems) = preProject
+		certs\cert.pem = certs\cert.pem
+		certs\key.pem = certs\key.pem
+		certs\server.crt = certs\server.crt
+		certs\server.key = certs\server.key
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "include", "include", "{24DEA548-177D-4FA5-9F17-2EBCB85732A8}"
+	ProjectSection(SolutionItems) = preProject
+		include\httplib.h = include\httplib.h
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "https_server", "src\https_server\https_server.vcxproj", "{1FC4347C-A1F9-41EA-9F20-567FCBA743B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "proxy", "proxy", "{FE2E3808-6A5F-48BB-B7D9-6951F7370013}"
+	ProjectSection(SolutionItems) = preProject
+		proxy\package.json = proxy\package.json
+		proxy\server.js = proxy\server.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C986D7C-F6A4-4E40-818E-B33B3E1D75D4}.Debug|x64.ActiveCfg = Debug|x64
+		{9C986D7C-F6A4-4E40-818E-B33B3E1D75D4}.Debug|x64.Build.0 = Debug|x64
+		{9C986D7C-F6A4-4E40-818E-B33B3E1D75D4}.Debug|x86.ActiveCfg = Debug|Win32
+		{9C986D7C-F6A4-4E40-818E-B33B3E1D75D4}.Debug|x86.Build.0 = Debug|Win32
+		{9C986D7C-F6A4-4E40-818E-B33B3E1D75D4}.Release|x64.ActiveCfg = Release|x64
+		{9C986D7C-F6A4-4E40-818E-B33B3E1D75D4}.Release|x64.Build.0 = Release|x64
+		{9C986D7C-F6A4-4E40-818E-B33B3E1D75D4}.Release|x86.ActiveCfg = Release|Win32
+		{9C986D7C-F6A4-4E40-818E-B33B3E1D75D4}.Release|x86.Build.0 = Release|Win32
+		{1FC4347C-A1F9-41EA-9F20-567FCBA743B0}.Debug|x64.ActiveCfg = Debug|x64
+		{1FC4347C-A1F9-41EA-9F20-567FCBA743B0}.Debug|x64.Build.0 = Debug|x64
+		{1FC4347C-A1F9-41EA-9F20-567FCBA743B0}.Debug|x86.ActiveCfg = Debug|Win32
+		{1FC4347C-A1F9-41EA-9F20-567FCBA743B0}.Debug|x86.Build.0 = Debug|Win32
+		{1FC4347C-A1F9-41EA-9F20-567FCBA743B0}.Release|x64.ActiveCfg = Release|x64
+		{1FC4347C-A1F9-41EA-9F20-567FCBA743B0}.Release|x64.Build.0 = Release|x64
+		{1FC4347C-A1F9-41EA-9F20-567FCBA743B0}.Release|x86.ActiveCfg = Release|Win32
+		{1FC4347C-A1F9-41EA-9F20-567FCBA743B0}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9C986D7C-F6A4-4E40-818E-B33B3E1D75D4} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{1FC4347C-A1F9-41EA-9F20-567FCBA743B0} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3EE5708-00E5-4222-8639-89B15457D5E9}
+	EndGlobalSection
+EndGlobal

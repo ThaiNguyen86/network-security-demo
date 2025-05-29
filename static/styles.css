@@ -1,0 +1,117 @@
+﻿body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #e8edf5; /* Nền xanh sáng nhạt */
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    width: 800px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.login-form {
+    width: 50%;
+    padding: 40px;
+    background-color: white;
+}
+
+    .login-form h2 {
+        margin-bottom: 20px;
+        color: #0d1b2a; /* navy đậm */
+    }
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #cbd5e0;
+    border-radius: 25px;
+    font-size: 14px;
+    outline: none;
+    background-color: #f1f5f9;
+    color: #0d1b2a;
+}
+
+.login-btn {
+    margin-top: 15px;
+    padding: 12px;
+    background: linear-gradient(to right, #1e3a8a, #0f172a); /* navy gradient */
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+    .login-btn:hover {
+        opacity: 0.9;
+    }
+
+.login-welcome {
+    width: 50%;
+    background: linear-gradient(to right, #0f172a, #1e3a8a); /* navy đậm hơn */
+    color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+    .login-welcome h1 {
+        font-size: 28px;
+        margin-bottom: 10px;
+        color: #f1f5f9;
+    }
+.welcome-screen {
+    text-align: center;
+    padding: 80px;
+    margin: auto;
+    max-width: 600px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+    .welcome-screen h1 {
+        color: #1e3a8a; /* navy đậm */
+        margin-bottom: 20px;
+        font-size: 32px;
+    }
+
+    .welcome-screen p {
+        color: #0f172a;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .welcome-screen a {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        text-decoration: none;
+        color: white;
+        background: linear-gradient(to right, #1e3a8a, #0f172a);
+        border-radius: 25px;
+        font-weight: bold;
+        transition: 0.3s ease;
+    }
+
+        .welcome-screen a:hover {
+            opacity: 0.9;
+        }
