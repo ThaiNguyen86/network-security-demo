@@ -11,5 +11,3 @@ Thẻ Debugging thay Working directory thành đường dẫn đến thư mục 
 Ở Library Directories thay thành đường dẫn đến file thư viện của OPENSSL thường là C:\Program Files\OpenSSL-Win64\lib
 Ở thẻ Linker General -> Additional Library Directories thêm đường dẫn đến 2 file thư viện libcrypto.lib và libssl.lib thường là C:\Program Files\OpenSSL-Win64\lib\VC\x64\MD; và file kernel32.Lib thường là C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64;$(VC_LibraryPath_x64);$(WindowsSdkLibPath)
 Ở Input thay thành libssl.lib;libcrypto.lib;%(AdditionalDependencies)
-Để chạy proxy trước tiên chạy https_server 
-Sau đó bấm ctrl ` để mở terminal cd đến folder proxy gõ npm install -> npm start -> truy cập localhost:8081
