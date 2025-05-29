@@ -17,8 +17,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "static", "static", "{43BB44
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "certs", "certs", "{BD3A062D-D79E-410C-A004-EA5604C11C7B}"
 	ProjectSection(SolutionItems) = preProject
-		certs\cert.pem = certs\cert.pem
-		certs\key.pem = certs\key.pem
 		certs\server.crt = certs\server.crt
 		certs\server.key = certs\server.key
 	EndProjectSection
@@ -29,12 +27,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "include", "include", "{24DE
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "https_server", "src\https_server\https_server.vcxproj", "{1FC4347C-A1F9-41EA-9F20-567FCBA743B0}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "proxy", "proxy", "{FE2E3808-6A5F-48BB-B7D9-6951F7370013}"
-	ProjectSection(SolutionItems) = preProject
-		proxy\package.json = proxy\package.json
-		proxy\server.js = proxy\server.js
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
 	ProjectSection(SolutionItems) = preProject
